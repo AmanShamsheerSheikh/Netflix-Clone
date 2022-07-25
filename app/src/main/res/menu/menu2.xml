@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24">
+    </item>
+
+    <item android:title="TV"
+        android:icon="@drawable/ic_baseline_tv_24"
+        android:id="@+id/Tv"/>
+
+    <item android:title="Movie"
+        android:icon="@drawable/ic_baseline_local_movies_24"
+        android:id="@+id/movie"/>
+
+    <item
+        android:id="@+id/Search"
+        android:title="Search"
+        android:icon="@drawable/ic_baseline_search_24">
+    </item>
+
+    <item
+        android:id="@+id/Account"
+        android:title="Account"
+        android:icon="@drawable/ic_baseline_account_circle_24">
+    </item>
+
+
+
+</menu>

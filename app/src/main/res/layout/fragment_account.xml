@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/logOutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="168dp"
+            android:text="LOGOUT"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.465"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewEmail" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="228dp"
+            android:layout_height="61dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="164dp"
+            android:text="EMAIL"
+            android:textColor="@color/black"
+            android:textSize="44sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="343dp"
+            android:layout_height="78dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:text="Email"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/textView5"-->
+        <!--            android:layout_width="238dp"-->
+        <!--            android:layout_height="61dp"-->
+        <!--            android:layout_centerHorizontal="true"-->
+        <!--            android:layout_marginStart="52dp"-->
+        <!--            android:layout_marginTop="108dp"-->
+        <!--            android:text="PASSWORD"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            android:textSize="44sp"-->
+        <!--            android:theme="@style/Theme.Design.NoActionBar"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/textView4" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/textViewPassword"-->
+        <!--            android:layout_width="228dp"-->
+        <!--            android:layout_height="61dp"-->
+        <!--            android:layout_centerHorizontal="true"-->
+        <!--            android:layout_marginTop="24dp"-->
+        <!--            android:layout_marginEnd="48dp"-->
+        <!--            android:text="Password"-->
+        <!--            android:textSize="34sp"-->
+        <!--            app:layout_constraintBottom_toTopOf="@+id/logOutButton"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/textView5"-->
+        <!--            app:layout_constraintVertical_bias="0.097" />-->
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>
